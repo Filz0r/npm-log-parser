@@ -16,7 +16,7 @@ As long as you keep the known issues in mind the script should always work, I st
 
 This script should work in any linux distribution, however I only tested it in Pop Os 20.10, but from what I know the commands the script runs to create the folders on first start exist in all Unix based systems, *I think..*
 
-**Known Issues**
+## **Known Issues**
 If you chose option 1 in the main menu after parsing the default.log file the program will ask you if you want it to filter out the results right away, this almost works... If I run the script like this I get 78 unique public IPs, if I say `n` and grab the filename it gives me before quitting and restart the script and select option 2 and give it the name I just grabbed it will give me 81 unique IPs, which is my expected output.
 
 # About this script
