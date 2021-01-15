@@ -6,6 +6,7 @@ def menu():
 ##                                                        ##
 ##  What do you want to do?                               ##
 ##                                                        ##
+##  0-> Exit                                              ##
 ##  1-> look for injection requests in your default.log   ##
 ##  2-> filter your results                               ##
 ##                                                        ##
@@ -26,8 +27,6 @@ INPUT: ''')
 ##                      GOOD BYE!                         ##
 ##                                                        ##
 ############################################################''')
-            import os
-            os.system('exit')
         elif response == 1:
             response = 0
             log_parser()

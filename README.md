@@ -1,3 +1,11 @@
+# Update
+
+I have found a way to filter out the IPs that send these requests and I've made a new script that does precisely that. To make it easier for anyone to run this script I've also implemented a simple menu for users to navigate trough with the ability to first parse the logs to find out any requests similar to the ones I've found and after that filter out all of this requests and it builds an list of indidual IPs that sent these requests.
+It also creates all the directories it needs to work properly, and the only set up you need to do is the following:
+1- 
+
+# About this script
+
 The idea behind this script comes from finding out a bunch of really strange requests to my Nginx Proxy Manager container that is open to the internet.
 The requests in case are almost always identical to this:
 
