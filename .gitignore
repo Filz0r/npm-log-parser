@@ -1,0 +1,4 @@
+test.py
+test2.py
+logs/*.log
+parsed/*.log
