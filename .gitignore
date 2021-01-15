@@ -1,5 +1,6 @@
 logs/*.log
 parsed/*.log
+results/*.log
 __pycache__
 test.py
 test2.py

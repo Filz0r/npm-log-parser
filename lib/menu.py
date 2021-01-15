@@ -1,5 +1,5 @@
 from lib.modules.log_parser import log_parser
-from lib.modules.ip_filter import ip_filter
+from lib.modules.ip_filter import log_finder
 def menu():
     print('''
 ############################################################
@@ -33,7 +33,7 @@ INPUT: ''')
             log_parser()
         elif response == 2:
             response = 0
-            ip_filter('test')
+            log_finder()
         else:
             print('error invalid choice')
             return menu()
