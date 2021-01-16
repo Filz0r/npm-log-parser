@@ -1,6 +1,5 @@
-logs/*.log
-parsed/*.log
-results/*.log
+*.log
+*.json
 *.pyc
 __pycache__
 test.py
