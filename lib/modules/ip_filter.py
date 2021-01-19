@@ -13,7 +13,6 @@ def ip_filter(filename):
 
     hand = open(path, 'rt')
     ip_dic = dict()
-    
     for line in hand:
         line = line.rstrip()
         stuff = re.findall(pattern, line)
@@ -33,3 +32,5 @@ def ip_filter(filename):
 
     print('done, I found a total of ' + str(ct) + ' different IPs making these requests')
     print('You can check out the results of this script in ' + results_path)
+    from lib.menu import menu
+    menu()

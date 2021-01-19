@@ -34,7 +34,11 @@ def log_parser():
             ip_filter(parsed_log_file)
         elif reply.lower() == 'n':
             print('Ok you can check the logs over at ' + parsed_path + parsed_log_file)
+            from lib.menu import menu
+            menu()
         else:
             print('invalid reply, quitting...')
     except:
         print('there was an error processing your reply :(')
+        from lib.menu import menu
+        menu()
